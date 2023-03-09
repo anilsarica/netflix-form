@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Roboto:wght@100&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="shadow">
+            <div class="baslik">
+                Net<span style="color: red;">FLİX</span>
+            </div>
+            <div class="altyazi">Thank you for signing up at Netflix. Tell us more about yourself.</div>
+            <div class="black-form">
+                <form class="label-font">
+                    
+                    <div class="label" for"name">Name</div>
+                    <input type="text" class="input" name="name" placeholder="enter your name">
+
+                    <div class="label" for"yas" >Age</div>
+                    <input type="number" class="input" name="yas" placeholder="Age">
+
+                    <div class="label">Email</div>
+                    <input type="email" class="input" placeholder="enter your Email">
+
+                    <div class="label" for"content">Content type</div>
+                    <select name="content" class="input">
+                        <option value="Movies"></option>
+                        <option value="Series"></option>
+                        <option value="Documentaries"></option>
+                        <option value="Other"></option>
+                    </select>
+
+                    <div class="formbord">
+                        <div>Movie Type</div>
+                        <div>
+                            <input type="checkbox" name="action"> Action
+                        </div>
+                        <div>
+                            <input type="checkbox" name="horror"> Horror
+                        </div>
+                        <div>
+                            <input type="checkbox" name="drama"> Drama
+                        </div>
+                    </div>
+                    
+                    <div class="formbord">
+                        <div>Gender</div>
+                        <div>
+                            <input type="radio" value="Male"> Male
+                        </div>
+                        <div>
+                            <input type="radio" value="female"> Female
+                        </div>
+                        <div>
+                            <input type="radio" value="other"> Other
+                        </div>
+                    </div>
+                    <div class="formborder">
+                        <div class="label">Feedback</div>
+                        <textarea name="comment" id="" class="input">Any comment</textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
